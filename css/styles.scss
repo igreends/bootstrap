@@ -1,0 +1,105 @@
+$color-logo: rgb(4, 105, 26);
+$color-teal:teal;
+$bg-navbar-drop:#212529;
+$nav-bar-h:rgb(250, 246, 246);
+$footer-bg:#000;
+$dropdown-item:#afb4b9;
+$dropdown-bg:#212529;
+
+
+
+body{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family:'Racing Sans One', serif;
+    font-size: 16px; 
+    color: #606060; 
+}
+body, .jumbotron {
+	background-image: url("/img/bg-body.jpg");    
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: $nav-bar-h;
+    font-weight: 400;
+}
+.jumbotron{
+    padding:20px;
+    font-family:'Racing Sans One', serif;
+    margin-bottom: 0px;
+}
+.logo{
+    color:$color-logo;
+}
+h1{
+    color:$nav-bar-h;
+}
+.navbar-collapse{
+    border-top:1px grey solid;
+}
+.nav-item{
+padding-right:30px;
+font-size: 1.3em;
+}
+
+.dropdown-menu.show {
+    display: block;
+    background: $bg-navbar-drop;
+    }
+
+.dropdown-item {
+   color: $dropdown-item;  
+    background: $dropdown-bg;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 60%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  .carousel-caption {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.breadcrumb {
+   
+    padding:0 10px;
+    margin-bottom: 1rem;
+    background-color: #2e2f2f;
+    
+}
+  
+
+
+th{
+    color:$color-teal;
+    font-size:2rem;      
+}
+td{
+    font-family:'Raleway', Helvetica, sans-serif;
+}
+
+li a{
+    color:$color-teal;
+}
+footer{
+    background-color: $footer-bg;
+}
