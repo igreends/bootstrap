@@ -1,6 +1,5 @@
 body {
-  font-family: 'Raleway', Helvetica, sans-serif;
-  font-family: 'Racing Sans One', serif;
+  font-family: "Racing Sans One", serif;
   font-size: 16px;
   color: #606060; }
 
@@ -26,7 +25,8 @@ h1 {
   color: #faf6f6; }
 
 .navbar-collapse {
-  border-top: 1px grey solid; }
+  border-top: 1px grey solid;
+  background-image: url("/img/bg-body.jpg"); }
 
 .nav-item {
   padding-right: 30px;
@@ -52,7 +52,7 @@ h1 {
   opacity: 0.3; }
 
 .carousel-caption {
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   position: absolute;
   right: 15%;
   bottom: 20px;
@@ -71,15 +71,136 @@ h1 {
   margin-bottom: 1rem;
   background-color: #2e2f2f; }
 
+h3 {
+  font-family: "Raleway", Helvetica, sans-serif; }
+
 th {
   color: teal;
   font-size: 2rem; }
 
 td {
-  font-family: 'Raleway', Helvetica, sans-serif; }
+  font-family: "Raleway", Helvetica, sans-serif; }
 
 li a {
   color: teal; }
 
 footer {
   background-color: #000; }
+
+.red-one {
+  color: red; }
+
+h4 small, .p-text, p {
+  font-family: "Raleway", Helvetica, sans-serif;
+  color: #606060;
+  font-weight: bold;
+  font-size: 1em; }
+
+h4 small, .p-text {
+  text-align: center; }
+
+.or-one {
+  color: orange; }
+
+.group-green {
+  color: green; }
+
+#instructor {
+  background: url(../img/instructor.png) 90% 30px no-repeat; }
+
+.transebox {
+  background: #000;
+  opacity: 0.7;
+  padding: 25px;
+  z-index: -50; }
+
+.iconf {
+  font-size: 1.5em;
+  color: teal; }
+
+.sert-about {
+  text-align: center; }
+
+/* Rotate */
+.hover06 figure:hover img {
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.hover06 figure img {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1); }
+
+h1,
+h1 + p {
+  margin: 30px 15px 0;
+  font-weight: 300; }
+
+h1 + p a {
+  color: #333; }
+
+h1 + p a:hover {
+  text-decoration: none; }
+
+h2 {
+  margin: 0px 15px 20px;
+  padding: 0;
+  font-weight: 300; }
+
+h2 span {
+  margin-left: 1em;
+  color: #aaa;
+  font-size: 85%; }
+
+.column {
+  margin: 15px 15px 0;
+  padding: 0; }
+
+.column:last-child {
+  padding-bottom: 0px; }
+
+.column::after {
+  content: '';
+  clear: both;
+  display: block; }
+
+.column div {
+  position: relative;
+  float: left;
+  margin: 0 0 25px 0;
+  padding: 10px; }
+
+.column div:first-child {
+  margin-left: 0; }
+
+.column div span {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -1;
+  display: block;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 0; }
+
+figure {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden; }
+
+figure:hover + span {
+  bottom: -36px;
+  opacity: 1; }
+
+.cards-row {
+  margin-top: 90px;
+  margin-bottom: 10px; }
